@@ -4,9 +4,6 @@ date: 2021-06-24
 thumbnail: /assets/images/just-a-cook.jpg
 caption: I'm just a cook
 ---
-
-{{ date | postDate }}
-
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nemo, rem nostrum quis enim nesciunt delectus distinctio voluptates quia perferendis sit, itaque iusto, porro debitis laudantium voluptatibus eos numquam qui.
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias labore dolore laborum obcaecati eligendi quaerat soluta? Repudiandae mollitia magni voluptates aliquid accusantium facere quae quasi! Sint provident facilis quaerat magni?
