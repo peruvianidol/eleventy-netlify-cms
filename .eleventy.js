@@ -4,7 +4,7 @@ const { DateTime } = require("luxon");
 module.exports = function(eleventyConfig) {
   // Set directories to pass through to the _site folder
   eleventyConfig.addPassthroughCopy("_src/assets/images/");
-
+  eleventyConfig.addPassthroughCopy("_src/admin/");
   // Watch scss folder for changes
   eleventyConfig.addWatchTarget("./_src/assets/scss/");
 
