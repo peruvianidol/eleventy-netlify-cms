@@ -9,6 +9,7 @@
   <link rel="icon" href="{{ site.favicon }}" type="image/svg+xml" />
   <title>{% if title %}{{ title }} | {% endif %}{{ site.name }}</title>
   <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
@@ -27,6 +28,18 @@
   <footer>
     &copy; {% year %} <a href="https://mikeaparicio.com">Mike Aparicio</a> &middot; All your rights are belong to us (j/k do whatever you want, idc)
   </footer>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 
 </body>
 </html>
