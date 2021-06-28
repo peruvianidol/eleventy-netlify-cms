@@ -1,6 +1,8 @@
 ---
 title: Sample Page
 date: 2021-06-24
+thumbnail: /assets/images/just-a-cook.jpg
+caption: I'm just a cook
 ---
 
 {{ date | postDate }}
